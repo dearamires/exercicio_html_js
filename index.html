@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt.br">
+
+<head>
+
+    Primeira Nota <input id="nota1" type="number"> <br />
+    Segunda Nota <input id="nota2" type="number"> <br />
+    <button onclick="media()">Calcular Média</button>
+</head>
+<script>
+
+    <body>
+        function media() {
+    var nota1 = Number(document.getElementById("input")[0].value);
+        var nota2 = Number(document.getElementById("input")[1].value);
+
+        var media = (nota1 + nota2 / 2);
+
+    if (média >= 6) {
+            console.log("O aluno foi aprovado.");
+    }
+        else {
+            console.log("O aluno foi Reprovado.");
+    }
+
+    </body>
+</script>
+
+</html>
